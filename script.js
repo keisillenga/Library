@@ -13,7 +13,6 @@ let book = [
 },
 
 ];
-// Shfaq librat
 function displayBooks(bookList = books){
   const library= document.getElementById("library");
    library.innerHTML="";
@@ -37,7 +36,6 @@ bookList.forEach((book,index)=>
     `;
 });
 }
-// Shto libër të ri
 
 function addBook(){
   const title= document.getElementById("title").value;
@@ -60,13 +58,12 @@ saveBooks();
 displayBooks();
 
 }
-// Fshi libër
 function deliteBook(index){
   book.splice(index,1);
   saveBooks();
   displayBooks();
 }
-// Ruaj librat
+
 function saveBooks(){
   locateStorage.stItem(
     "books",
@@ -74,7 +71,6 @@ function saveBooks(){
     );
 }
 
-// Kërkimi
 document.getElementById("search")
 add.EventListener("input",function(){
   let searchValue=this.value.toLowerCase();
@@ -85,7 +81,7 @@ add.EventListener("input",function(){
     );
   displayBookss(filteredBooks);
 });
-// Dark mode
+
 const themeBtn = document.getElementById("themeBtn");
 themeBtn.addEventListener("click",()=>{
   document.body.classList.toggle("dark");
@@ -95,10 +91,10 @@ themeBtn.addEventListener("click",()=>{
     );
 
 });
-// Kontrollo dark mode kur hapet faqja
+
 if(localStorage.getItem("darkMode") ==="true"){
   document.body.classList.contains("dark")
 }
-// Shfaq librat në fillim
+
 displayBooks();
   
