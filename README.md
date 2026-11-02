@@ -42,12 +42,11 @@ Through this project, I practiced:
 - Handling user input and validating form fields.
 - Implementing a dark mode toggle.
 
-## 🔮 Future Improvements
+## Future Improvements
 
 I would like to expand this project with:
 
-- 📚 Integration with the Google Books API.
-- 🖼️ Book cover images.
-- ❤️ A favorites section.
-- 🏷️ Book categories and genres.
-- ✏
+-  Integration with the Google Books API.
+-  Book cover images.
+-  A favorites section.
+-  Book categories and genres.
