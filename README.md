@@ -1,17 +1,17 @@
-# 📚 Book Library Website
+#  Book Library Website
 
 A simple and interactive Book Library Website built with **HTML, CSS, and JavaScript**. This project allows users to manage their personal book collection through a clean and user-friendly interface.
 
-## ✨ Features
+##  Features
 
-- 📖 **View Books** — Display a collection of books with their titles, authors, and ratings.
-- ➕ **Add Books** — Add new books to your personal library.
-- 🔍 **Search Books** — Search for books by title.
-- 🗑️ **Delete Books** — Remove books from your collection.
-- ⭐ **Book Ratings** — Display star ratings for books.
-- 🌙 **Dark Mode** — Switch between light and dark themes.
-- 💾 **Local Storage** — Save books and remember the selected theme using browser storage.
-- 📱 **Responsive Layout** — A flexible layout designed to work across different screen sizes.
+- **View Books** — Display a collection of books with their titles, authors, and ratings.
+-  **Add Books** — Add new books to your personal library.
+-  **Search Books** — Search for books by title.
+-  **Delete Books** — Remove books from your collection.
+-  **Book Ratings** — Display star ratings for books.
+-  **Dark Mode** — Switch between light and dark themes.
+-  **Local Storage** — Save books and remember the selected theme using browser storage.
+-  **Responsive Layout** — A flexible layout designed to work across different screen sizes.
 
 ## 🛠️ Technologies Used
 
